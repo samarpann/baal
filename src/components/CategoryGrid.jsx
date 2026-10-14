@@ -18,10 +18,17 @@ export const categories = [
     link: "/products?cat=tools"
   },
   {
+    title: "Rigging Hardware & Fittings",
+    badge: "UrbanLift",
+    img: "/assets/products/bow-shuckle.jpg",
+    desc: "Forged bow and dee shackles, G80 chain connectors, self-locking hooks, wire rope grips, plate lifting clamps, and heavy-duty load binders.",
+    link: "/products?cat=rigging"
+  },
+  {
     title: "Safety & PPE Solutions",
-    badge: "Black & Decker / Delta Plus",
+    badge: "Delta Plus",
     img: "/assets/img/cat-ppe.jpg",
-    desc: "Certified steel-toe safety footwear, ventilated mountain helmets, high-dexterity cut-resistant gloves, Pacaya Smoke protective eyewear, and industrial coveralls.",
+    desc: "Ventilated mountain helmets, full body safety harnesses, high-dexterity cut-resistant gloves, protective eyewear, and industrial coveralls.",
     link: "/products?cat=safety"
   },
   {

@@ -10,12 +10,12 @@ export default function About({ onOpenRfq }) {
       <section className="band band-dark" style={{ padding: '70px 0 50px', background: 'linear-gradient(180deg, #18283d 0%, #111e2f 100%)' }}>
         <div className="wrap">
           <div className="head">
-            <div className="kicker">About Balkishan Dass</div>
+            <div className="kicker">About Balkishan Dass Ashok Kumar</div>
             <h1 style={{ color: '#ffffff', fontSize: 'clamp(32px, 4vw, 44px)', marginBottom: '14px' }}>
               40+ Years of Dedication to Industrial Safety &amp; Lifting
             </h1>
             <p className="lead" style={{ color: '#b3c5d8' }}>
-              At Bal Kishan Das, we are committed to providing efficient and reliable solutions for lifting and material handling applications. Our mission revolves around the development and distribution of a comprehensive range of products tailored to meet the specific needs of various industries, ensuring optimal performance, safety, and productivity.
+              At Balkishan Dass Ashok Kumar, we are committed to providing efficient and reliable solutions for lifting, rigging, and material handling applications. Our mission revolves around the distribution and supply of a comprehensive range of certified products tailored to meet the specific needs of diverse industries, ensuring optimal performance, safety, and productivity.
             </p>
           </div>
         </div>
@@ -29,10 +29,10 @@ export default function About({ onOpenRfq }) {
               <div className="kicker">Our Heritage</div>
               <h2>Supplying Construction &amp; Industrial Sites Worldwide</h2>
               <p style={{ fontSize: '16px', color: 'var(--text-body)', lineHeight: '1.7', marginBottom: '18px' }}>
-                For over 40 years, <b>Balkishan Dass Company</b> has supplied construction and industrial sites throughout the world with top quality, reliable lifting and rigging solutions. We tailor our clients’ rigging, lifting, and fall protection equipment to meet the demands of each job, fabricating and proof-testing solutions to ensure zero failure in high-risk environments.
+                For over 40 years, <b>Balkishan Dass Ashok Kumar</b> has supplied construction and industrial sites throughout India and abroad with top quality, reliable lifting, rigging hardware, and safety solutions. We tailor our clients’ rigging, lifting, and fall protection equipment to meet the demands of each job, supplying proof-tested equipment to ensure zero failure in high-risk environments.
               </p>
               <p style={{ fontSize: '16px', color: 'var(--text-body)', lineHeight: '1.7', marginBottom: '24px' }}>
-                Our comprehensive product portfolio includes <b>Chain Pulley Blocks, Ratchet Lever Hoists, Electric &amp; Manual Trolleys, Electric Chain Hoists, Pulling &amp; Lifting Machines, Beam Clamps, Ratchet Lashings, Tow Straps, and Forklift Protectors</b>.
+                Our comprehensive product portfolio includes <b>Chain Pulley Blocks, Ratchet Lever Hoists, Wire Rope Slings, Rigging Shackles &amp; Hooks, Electric Chain Hoists, Pulling &amp; Lifting Machines, Beam Clamps, Pallet Trucks, and Safety PPE</b>.
               </p>
               <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
                 <div style={{ background: '#f4f7fb', borderLeft: '3px solid var(--amber)', padding: '12px 18px', borderRadius: '4px', flex: '1 1 200px' }}>
@@ -48,7 +48,7 @@ export default function About({ onOpenRfq }) {
 
             <div>
               <div style={{ position: 'relative', borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--shadow-xl)', border: '1px solid var(--line)' }}>
-                <img src="/assets/img/hero-warehouse.webp" alt="Balkishan Dass Warehouse & Distribution Hub" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                <img src="/assets/img/hero-warehouse.webp" alt="Balkishan Dass Ashok Kumar Warehouse & Distribution Hub" style={{ width: '100%', height: 'auto', display: 'block' }} />
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, background: 'linear-gradient(transparent, rgba(14,25,41,0.92))', padding: '24px 20px 16px', color: '#fff' }}>
                   <span style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--amber)', fontWeight: '700' }}>
                     Delhi Distribution Hub
@@ -75,9 +75,9 @@ export default function About({ onOpenRfq }) {
                 <img src="/assets/products/electric-hoist.jpg" alt="Lifting Solutions" />
               </div>
               <div className="cat-body">
-                <h3>Lifting Solutions – Ferrreterro &amp; JCB</h3>
+                <h3>Lifting Solutions – Ferreterro &amp; JCB</h3>
                 <p>
-                  Bal Kishan Das specializes in advanced lifting solutions designed to handle diverse weights and operate seamlessly in tough environments. Our lifting products, such as the Chain Pulley Block and Electric Chain Hoist, are engineered for durability and ease of use. Partnering with renowned brands like Ferrreterro and JCB, we ensure our products integrate latest technology and ergonomic designs.
+                  Balkishan Dass Ashok Kumar specializes in advanced lifting solutions designed to handle diverse weights and operate seamlessly in tough environments. Our lifting products, such as the Chain Pulley Block and Electric Chain Hoist, are engineered for durability and ease of use. Partnering with renowned brands like Ferreterro and JCB, we ensure our products integrate latest technology and ergonomic designs.
                 </p>
                 <Link to="/products?cat=lifting" className="go">
                   View Lifting Gear <ArrowRight size={16} />
@@ -88,13 +88,13 @@ export default function About({ onOpenRfq }) {
             {/* Pillar 2 */}
             <div className="cat">
               <div className="cat-media">
-                <span className="cat-badge">Black &amp; Decker &amp; Delta Plus</span>
-                <img src="/assets/products/shoes.jpg" alt="Safety Solutions" />
+                <span className="cat-badge">Delta Plus</span>
+                <img src="/assets/products/ventilated-helmet.webp" alt="Safety Solutions" />
               </div>
               <div className="cat-body">
-                <h3>Safety Solutions – Black &amp; Decker &amp; Delta Plus</h3>
+                <h3>Safety Solutions – Delta Plus PPE</h3>
                 <p>
-                  Safety is at the core of everything we do at Bal Kishan Das. Effective material handling and lifting go hand in hand with robust safety measures. That’s why we incorporate safety solutions from leading brands like Black Decker and Deltaplus. Our Beam Clamps and Ratchet Lashings are designed with integrated safety systems to prevent accidents and ensure the well-being of operators.
+                  Safety is at the core of everything we do at Balkishan Dass Ashok Kumar. Effective material handling and lifting go hand in hand with robust safety measures. That’s why we supply certified safety solutions from leading European manufacturers like Delta Plus. From high-altitude ventilated helmets to cut-resistant industrial gloves and fall arrest harnesses, our safety products prevent worksite accidents.
                 </p>
                 <Link to="/products?cat=safety" className="go">
                   View PPE &amp; Safety <ArrowRight size={16} />

@@ -38,7 +38,7 @@ export default function HeroSlider({ onOpenRfq }) {
           </div>
           <h1>Lifting, Tools &amp; Industrial Safety, <em>Engineered for Tough Jobs</em></h1>
           <p className="sub">
-            <b>Balkishan Dass Company</b> is a trusted supplier of heavy lifting hoists, precision hand tools, PPE safety equipment, roller chains and wire ropes. Supplying construction conglomerates, manufacturing plants and industrial sites with top quality certified equipment for over 40 years.
+            <b>Balkishan Dass Ashok Kumar</b> is a trusted supplier of heavy lifting hoists, rigging hardware, precision hand tools, PPE safety equipment, roller chains and wire ropes. Supplying construction conglomerates, manufacturing plants and industrial sites with top quality certified equipment for over 40 years.
           </p>
           <div className="ctas">
             <Link className="btn btn-amber" to="/products">Explore Products Catalog</Link>

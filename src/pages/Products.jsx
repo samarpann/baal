@@ -71,6 +71,12 @@ export default function Products({ onOpenRfq }) {
                 Lifting &amp; Hoists
               </button>
               <button
+                className={`filter-tab ${activeCategory === 'rigging' ? 'active' : ''}`}
+                onClick={() => handleCategoryChange('rigging')}
+              >
+                Rigging Hardware
+              </button>
+              <button
                 className={`filter-tab ${activeCategory === 'tools' ? 'active' : ''}`}
                 onClick={() => handleCategoryChange('tools')}
               >

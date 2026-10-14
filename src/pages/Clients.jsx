@@ -14,7 +14,7 @@ export default function Clients({ onOpenRfq }) {
               Our Happy Clients &amp; Proven Project History
             </h1>
             <p className="lead" style={{ color: '#b3c5d8' }}>
-              For over 40 years, Balkishan Dass Company has supplied construction and industrial sites throughout the world with top quality, reliable lifting and rigging solutions. We tailor our clients’ rigging, lifting, and fall protection equipment to meet the demands of each job.
+              For over 40 years, Balkishan Dass Ashok Kumar has supplied construction and industrial sites throughout India and abroad with top quality, reliable lifting, rigging hardware, and safety solutions. We tailor our clients’ rigging, lifting, and fall protection equipment to meet the demands of each job.
             </p>
           </div>
         </div>

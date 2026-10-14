@@ -34,7 +34,7 @@ export default function Home({ onOpenRfq, onToast }) {
     e.preventDefault();
     const { name, phone, email, product, quantity, company, message } = bannerForm;
     const waText = encodeURIComponent(
-      `Hello Balkishan Dass,\nI would like an RFQ quote from your website:\n` +
+      `Hello Balkishan Dass Ashok Kumar,\nI would like an RFQ quote from your website:\n` +
       `• Name: ${name}\n` +
       `• Phone: ${phone}\n` +
       `• Email: ${email}\n` +
@@ -78,7 +78,7 @@ export default function Home({ onOpenRfq, onToast }) {
             <div className="kicker">Product Showcase</div>
             <h2>Featured Industrial Equipment</h2>
             <p className="lead">
-              A sample of our most requested lifting machinery, precision tools, and PPE safety gear. Browse our dedicated catalog page for our complete inventory of 25+ products.
+              A sample of our most requested lifting machinery, precision hand tools, rigging hardware, and PPE safety gear. Browse our dedicated catalog page for our complete inventory of 95+ products.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ export default function Home({ onOpenRfq, onToast }) {
 
           <div style={{ textAlign: 'center', marginTop: '40px' }}>
             <Link to="/products" className="btn btn-navy">
-              View All 25+ Products in Full Catalog <ArrowRight size={16} />
+              View All 95+ Products in Full Catalog <ArrowRight size={16} />
             </Link>
           </div>
         </div>
@@ -279,8 +279,9 @@ export default function Home({ onOpenRfq, onToast }) {
                         onChange={handleBannerFormChange}
                       >
                         <option value="Lifting Equipment (Hoists/Clamps/Slings)">Lifting Equipment (Hoists / Clamps / Slings)</option>
+                        <option value="UrbanLift Rigging Hardware">UrbanLift Rigging Gear (Shackles / Clamps / Hooks)</option>
                         <option value="De Neers Hand Tools">De Neers Industrial Hand Tools</option>
-                        <option value="Safety PPE & Shoes">Safety Shoes &amp; PPE (Delta Plus / Black Decker)</option>
+                        <option value="Delta Plus Safety PPE">Delta Plus PPE (Helmets / Gloves / Harnesses)</option>
                         <option value="Diamond Roller Chains">Diamond Roller Chains &amp; Sprockets</option>
                         <option value="Mahadev Wire Ropes & Slings">Mahadev Wire Ropes &amp; Slings</option>
                         <option value="Custom JCB Re-engineering">Custom Re-engineering &amp; Fabrication</option>

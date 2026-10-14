@@ -1,6 +1,6 @@
 export const siteInfo = {
-  name: "Balkishan Dass",
-  tagline: "Lifting • Hand Tools • Safety Solutions",
+  name: "Balkishan Dass Ashok Kumar",
+  tagline: "Lifting • Hand Tools • Rigging & Safety",
   subtitle: "Handtools, Heavy Lifting & Safety Equipment Suppliers",
   established: "Since 1980s",
   experienceYears: "40+ Years",

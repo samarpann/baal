@@ -1,6 +1,6 @@
 # baal
 
-**Balkishan Dass Company** – Industrial Hardware, Heavy Lifting, Precision Hand Tools & Safety PPE Web Platform.
+**Balkishan Dass Ashok Kumar** – Industrial Hardware, Heavy Lifting, Rigging Components, Precision Hand Tools & Safety PPE Web Platform.
 
 Rebuilt in **React (Vite + React Router)** with industrial design system inspired by Prior Safe.
 
@@ -9,8 +9,8 @@ Rebuilt in **React (Vite + React Router)** with industrial design system inspire
 - **Multi-Page Architecture**:
   - `/` - Home Portal (Hero slider, credibility stats, category showcase, brand highlights, client proofs, technical insights)
   - `/about` - 40+ Years heritage, Delhi Ajmeri Gate distribution, proof load testing, custom JCB re-engineering
-  - `/products` - Complete 25+ product inventory with real-time search, category filtering, and RFQ inquiries
-  - `/brands` - Official distributor profiles for De Neers, Ferreterro, JCB, Delta Plus, Black & Decker, Mahadev Wire Rope, Diamond
+  - `/products` - Complete 95+ product inventory with real-time search, category filtering, and RFQ inquiries
+  - `/brands` - Official distributor profiles for De Neers, Ferreterro, JCB, Delta Plus, UrbanLift, Mahadev Wire Rope, Diamond
   - `/clients` - Enterprise partners (Tata, L&T, BHEL, NTPC, etc.) and project delivery track record
   - `/blog` - Field guides on hand tools, hoists, wire ropes, and safety standards
   - `/contact` - Ajmeri Gate Delhi contact details, phone hotlines, and instant WhatsApp RFQ submission

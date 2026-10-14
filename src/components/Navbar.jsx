@@ -69,19 +69,19 @@ export default function Navbar({ onOpenRfq }) {
         <div className="wrap">
           <Link className="brand" to="/" onClick={closeMobileMenu}>
             <div className="logo-chip">
-              <img src="/assets/logo.png" alt="Balkishan Dass Logo" width="44" height="44" />
+              <img src="/assets/logo.png" alt="Balkishan Dass Ashok Kumar Logo" width="44" height="44" />
             </div>
             <div className="brand-text">
-              <div className="brand-mark">BALKISHAN <span>DASS</span></div>
-              <div className="brand-tagline">Lifting • Hand Tools • Safety</div>
+              <div className="brand-mark">BALKISHAN DASS <span>ASHOK KUMAR</span></div>
+              <div className="brand-tagline">Lifting • Hand Tools • Rigging &amp; Safety</div>
             </div>
           </Link>
 
           {/* DESKTOP & MOBILE NAVIGATION */}
           <nav className={`main ${mobileMenuOpen ? 'open' : ''}`} id="nav">
             <div className="mobile-nav-header">
-              <div className="brand-mark" style={{ fontSize: '18px' }}>
-                BALKISHAN <span>DASS</span>
+              <div className="brand-mark" style={{ fontSize: '16px' }}>
+                BALKISHAN DASS <span>ASHOK KUMAR</span>
               </div>
               <button className="mobile-close-btn" onClick={closeMobileMenu} aria-label="Close menu">
                 <X size={22} />
@@ -109,6 +109,7 @@ export default function Navbar({ onOpenRfq }) {
               </div>
               <div className={`dd ${mobileProductsOpen ? 'show-mobile' : ''}`}>
                 <Link to="/products?cat=lifting" onClick={closeMobileMenu}>Lifting &amp; Material Handling</Link>
+                <Link to="/products?cat=rigging" onClick={closeMobileMenu}>Rigging &amp; Hardware Fittings</Link>
                 <Link to="/products?cat=tools" onClick={closeMobileMenu}>Hand Tools &amp; Hardware</Link>
                 <Link to="/products?cat=safety" onClick={closeMobileMenu}>Safety Shoes &amp; PPE</Link>
                 <Link to="/products?cat=chains" onClick={closeMobileMenu}>Chains &amp; Power Transmission</Link>
@@ -138,8 +139,8 @@ export default function Navbar({ onOpenRfq }) {
                 <Link to="/brands#de-neers" onClick={closeMobileMenu}>De Neers (Hand Tools)</Link>
                 <Link to="/brands#ferreterro" onClick={closeMobileMenu}>Ferreterro (Lifting Equipment)</Link>
                 <Link to="/brands#jcb" onClick={closeMobileMenu}>JCB (Lifting &amp; Hoists)</Link>
+                <Link to="/brands#urbanlift" onClick={closeMobileMenu}>UrbanLift (Rigging Hardware)</Link>
                 <Link to="/brands#delta-plus" onClick={closeMobileMenu}>Delta Plus (Safety &amp; PPE)</Link>
-                <Link to="/brands#black-decker" onClick={closeMobileMenu}>Black &amp; Decker (Footwear &amp; PPE)</Link>
                 <Link to="/brands#mahadev" onClick={closeMobileMenu}>Mahadev Wire Ropes</Link>
                 <Link to="/brands#diamond" onClick={closeMobileMenu}>Diamond (Roller Chains)</Link>
               </div>

@@ -12,15 +12,15 @@ export default function Footer() {
           <div className="foot-col foot-about">
             <div className="brand" style={{ marginBottom: '16px' }}>
               <div className="logo-chip">
-                <img src="/assets/logo.png" alt="Balkishan Dass Logo" width="40" height="40" />
+                <img src="/assets/logo.png" alt="Balkishan Dass Ashok Kumar Logo" width="40" height="40" />
               </div>
               <div className="brand-text">
-                <div className="brand-mark">BALKISHAN <span>DASS</span></div>
+                <div className="brand-mark">BALKISHAN DASS <span>ASHOK KUMAR</span></div>
                 <div className="brand-tagline">{siteInfo.established} • Delhi, India</div>
               </div>
             </div>
             <p>
-              For over 40 years, Balkishan Dass Company has supplied construction and industrial sites throughout India and worldwide with top quality, reliable lifting, rigging, hand tools, and fall protection equipment.
+              For over 40 years, Balkishan Dass Ashok Kumar has supplied construction and industrial sites throughout India and worldwide with top quality, reliable lifting, rigging, hand tools, and fall protection equipment.
             </p>
             <div className="foot-badges">
               <span className="foot-badge">Authorized Distributor</span>
@@ -34,7 +34,7 @@ export default function Footer() {
             <h4>Navigation</h4>
             <ul className="foot-links">
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About Bal Kishan Das</Link></li>
+              <li><Link to="/about">About Us</Link></li>
               <li><Link to="/products">All Products Catalog</Link></li>
               <li><Link to="/brands">Authorized Brands</Link></li>
               <li><Link to="/clients">Our Happy Clients</Link></li>
@@ -48,11 +48,11 @@ export default function Footer() {
             <h4>Product Divisions</h4>
             <ul className="foot-links">
               <li><Link to="/products?cat=lifting">Lifting &amp; Hoists (JCB/Ferreterro)</Link></li>
+              <li><Link to="/products?cat=rigging">Rigging Gear &amp; Hardware (UrbanLift)</Link></li>
               <li><Link to="/products?cat=tools">De Neers Precision Hand Tools</Link></li>
               <li><Link to="/products?cat=safety">Safety Shoes &amp; Helmets (Delta Plus)</Link></li>
               <li><Link to="/products?cat=chains">Diamond Roller Chains &amp; Sprockets</Link></li>
               <li><Link to="/products?cat=wire-ropes">Mahadev Steel Wire Rope Slings</Link></li>
-              <li><Link to="/about#customization">Custom Rigging &amp; Re-engineering</Link></li>
             </ul>
           </div>
 
@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
 
         <div className="foot-bottom">
-          <div>&copy; 2024–2026 Bal Kishan Das (Balkishan Dass Company). All Rights Reserved.</div>
+          <div>&copy; 2024–2026 Balkishan Dass Ashok Kumar. All Rights Reserved.</div>
           <div>Supplying Quality Industrial Hardware, Lifting &amp; Safety Equipment Across India &amp; Globally.</div>
         </div>
       </div>

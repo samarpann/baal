@@ -32,7 +32,7 @@ export default function RfqModal({ isOpen, onClose, initialProduct = '', onToast
     const { name, phone, email, product, quantity, message } = formData;
 
     const waText = encodeURIComponent(
-      `Hello Balkishan Dass,\nI would like an RFQ quote:\n` +
+      `Hello Balkishan Dass Ashok Kumar,\nI would like an RFQ quote:\n` +
       `• Name: ${name}\n` +
       `• Phone: ${phone}\n` +
       `• Email: ${email}\n` +

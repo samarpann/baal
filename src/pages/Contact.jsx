@@ -21,7 +21,7 @@ export default function Contact({ onToast }) {
     e.preventDefault();
     const { name, phone, email, company, product, message } = formData;
     const waText = encodeURIComponent(
-      `Hello Balkishan Dass,\nI would like an inquiry from your contact page:\n` +
+      `Hello Balkishan Dass Ashok Kumar,\nI would like an inquiry from your contact page:\n` +
       `• Name: ${name}\n` +
       `• Phone: ${phone}\n` +
       `• Email: ${email}\n` +
@@ -48,7 +48,7 @@ export default function Contact({ onToast }) {
           <div className="head">
             <div className="kicker">Get In Touch</div>
             <h1 style={{ color: '#ffffff', fontSize: 'clamp(30px, 3.8vw, 42px)', marginBottom: '12px' }}>
-              Contact Balkishan Dass
+              Contact Balkishan Dass Ashok Kumar
             </h1>
             <p className="lead" style={{ color: '#b3c5d8' }}>
               Speak with our technical sales engineers for wholesale pricing, dealer agreements, technical data sheets, and custom rigging fabrication.
@@ -205,7 +205,7 @@ export default function Contact({ onToast }) {
                       <option value="JCB Hoists &amp; Clamps">JCB Material Handling &amp; Beam Clamps</option>
                       <option value="De Neers Hand Tools">De Neers Precision Industrial Tools</option>
                       <option value="Delta Plus PPE">Delta Plus PPE &amp; Safety Helmets</option>
-                      <option value="Black &amp; Decker Safety Shoes">Black &amp; Decker Safety Footwear</option>
+                      <option value="UrbanLift Rigging Hardware">UrbanLift Rigging Gear, Shackles &amp; Clamps</option>
                       <option value="Diamond Roller Chains">Diamond Roller Chains &amp; Sprockets</option>
                       <option value="Mahadev Wire Rope Slings">Mahadev Steel Wire Ropes</option>
                       <option value="Custom JCB Re-engineering">Custom Re-engineering &amp; Rigging</option>

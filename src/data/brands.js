@@ -67,18 +67,20 @@ export const brandsData = [
     ]
   },
   {
-    id: "black-decker",
-    name: "BLACK+DECKER",
-    tagline: "Safety Shoes, Helmets & Glasses",
-    kicker: "Protective Footwear & Safety Gear",
-    badge: "Footwear & Safety",
-    certifications: "ISI / EN ISO 20345 Certified",
-    color: "#e8590c",
-    desc: "Black & Decker industrial safety shoes and gear provide dependable impact and puncture protection on construction sites and manufacturing assembly lines, combining ergonomic comfort with heavy steel-toe defense.",
+    id: "urbanlift",
+    name: "UrbanLift",
+    tagline: "Rigging Hardware & Material Handling",
+    kicker: "Lifting Gear & Rigging Components",
+    badge: "Industrial Hardware",
+    certifications: "IS & EN Tested • Proof Loaded",
+    color: "#0c8599",
+    img: "/assets/brands/brand-urbanlift.png",
+    desc: "UrbanLift manufactures and supplies a comprehensive range of heavy-duty rigging gear, forged shackles, wire rope fittings, clamps, master rings, and material handling attachments engineered for demanding infrastructure, shipyard, and industrial lifting projects.",
     productLines: [
-      "Industrial Steel-Toe Safety Shoes", "Slip-Resistant PU Work Boots",
-      "Impact Protective Eyewear Glasses", "Safety Helmets",
-      "Heavy Duty Industrial Work Gloves"
+      "Aluminium Ferrules & Wire Sleeves", "Alloy Steel Bow & Dee Shackles",
+      "G80 Clevis & Self-Locking Safety Hooks", "Plate Lifting Clamps (Vertical & Horizontal)",
+      "Hydraulic Pallet Trucks & Drum Trolleys", "Electro-Hydraulic Thruster & Disc Brakes",
+      "Ratchet Cargo Lashing Straps & Load Binders"
     ]
   },
   {
